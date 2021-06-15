@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+:root {
+    --dark: #5c5346;
+    --blue: #2274a5;
+    --green: #659b5e;
+    --light-grey: #cecccc;
+}
+
+body {
+        background-color: var(--blue);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 20px;
+    color: var(--dark);
+    background-color: var(--green);
+}
+
+ul {
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}      
+
+li::before {
+    content: "💣";
+}
+
+li {
+    display: inline;
+}
+
+#content {
+    max-width: 90%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+
+   
+    color: var(--green);
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+    
+.about-me {
+    border-width: 5px;
+    border-color: var(--dark);
+    border-style: solid;
+}
+
+.about-me img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace
+
+}
+
+.creations {
+    display: flex;
+    justify-content: space-between;
+}
+
+.creations h2 {
+    flex: 0 0 15%;
+}
+
+.creations .container {
+    flex: 0 0 75%;
+
+}
+
+.image {
+    border: 4px solid;
+    min-height: 350px;
+    max-height: 350px;
+    margin-bottom: 20px;
+    background-size: cover;
+    
+    
+    transition: .5s ease;
+}
+
+.image2 {
+    border: 4px solid;
+    min-height: 250px;
+    max-height: 250px;
+    margin-bottom: 20px;
+    background-size: cover;
+    
+    
+    transition: .5s ease;
+}
+
+
+.image:hover {
+    opacity: 0.3;
+}
+
+.image2:hover{
+    opacity: 0.3;
+}
+
+.placeholder {
+    background-image: url("./images/Horiseon.png"); 
+    
+    
+}
+
+.placeholder2 {
+    background-image: url("./images/landing-page.png");
+    
+}
+
+
+footer{
+    color: var(--light-grey);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size:  30px;
+}
+
+footer p{
+    color: var(--green);
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 550px){
+    .about-me img {
+        width:50%;
+        height: 50%;
+           
+    }
+
+@media screen and (max-width: 550px){
+    .placeholder img {
+        width:50%;
+        height: 50%;
+               
+        }
+
+@media screen and (max-width: 550px){
+    .placeholder2 img {
+        width:50%;
+        height: 50%;
+                   
+            }
+
