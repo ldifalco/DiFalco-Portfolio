@@ -1,4 +1,6 @@
-# Homework2-DiFalco-Portfolio
+![portfolio-preview](https://user-images.githubusercontent.com/81760763/127361459-62b7f9f3-0cd9-43fc-af55-093aca21d144.png)
+![portfolio-preview2](https://user-images.githubusercontent.com/81760763/127361467-0b6653e0-9730-45fa-92c8-8909e21f486b.png)
+DiFalco-Portfolio
 
 Hello, welcome to my portfolio page!
 
@@ -11,5 +13,9 @@ Much like the first assignment, reaching a "client's" wishes were involved. This
 The greatest challenge of this assignment was definitely grasping flex-box and applying the box model for proper margins and spacing. It was a huge help having a hands on experience for future application in future projects.
 
 Features: Working Navigation Links Links to applications shown in Portfolio Responsive Layout
+
+https://ldifalco.github.io/DiFalco-Portfolio/
+
+EDIT: Actively updating portfolio as more works are created! 
 
 © 2021 GitHub, Inc.
