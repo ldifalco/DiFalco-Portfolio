@@ -190,7 +190,7 @@ footer p{
 
 @media screen and (max-width: 550px){
     .about-me img {
-        width:75%;
+        width:50%;
         height: 25%;
            
     }
