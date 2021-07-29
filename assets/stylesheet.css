@@ -176,10 +176,21 @@ footer p{
 }
 
 
+
+@media screen and (max-width: 550px){
+    p {
+        font-size: 11px;
+
+
+    }
+    
+}
+
+
 @media screen and (max-width: 550px){
     .about-me img {
-        width:50%;
-        height: 50%;
+        width:75%;
+        height: 25%;
            
     }
 
