@@ -5,11 +5,11 @@
 }
 
 body {
-        background-color: grey;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       }
 
-#my-name{
+
+.brand-logo{
     color:black;
     text-shadow: 4px 4px steelblue;
 }  
@@ -38,18 +38,23 @@ li {
 }
     
 .about-me {
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 5% 5%;
-    background-color: steelblue
+   
 }
 
 .about-me img {
+    width: 200px;
+    height: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
     
+}
+
+.about-me img:hover{
+    color:cyan;
+    background:cyan;
+    box-shadow: 0 0 50px cyan;
 }
 
 p {
@@ -72,141 +77,24 @@ p {
 }
 
 
-.image {
-    border: 4px solid;
-    min-height: 500px;
-    max-height: 500px;
-    margin-bottom: 20px;
-    background-size: cover;
-   
-    
-    
-    transition: .5s ease;
-}
 
-.image2 {
-    border: 4px solid;
-    min-height: 500px;
-    max-height: 500px;
-    margin-bottom: 20px;
-    background-size: cover;
-    
-    
-    transition: .5s ease;
-}
-
-.image3 {
-    border: 4px solid;
-    min-height: 300px;
-    max-height: 300px;
-    margin-bottom: 20px;
-    background-size: cover;
-    
-    
-    transition: .5s ease;
-}
-
-.image4 {
-    border: 4px solid;
-    min-height: 300px;
-    max-height: 300px;
-    margin-bottom: 20px;
-    background-size: cover;
-    
-    
-    transition: .5s ease;
-}
-
-.image5 {
-    border: 4px solid;
-    min-height: 500px;
-    max-height: 500px;
-    margin-bottom: 20px;
-    background-size: cover;
-    
-    
-    transition: .5s ease;
-}
-
-.image6 {
-    border: 4px solid;
-    min-height: 500px;
-    max-height: 500px;
-    margin-bottom: 20px;
-    background-size: cover;
-    
-    
-    transition: .5s ease;
-}
-
-.image7 {
-    border: 4px solid;
-    min-height: 600px;
-    max-height: 600px;
-    margin-bottom: 20px;
-    background-size: cover;
-    
-    
-    transition: .5s ease;
-}
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+  }
 
 
-
-.image:hover {
-    opacity: 0.3;
-}
-
-.image2:hover{
-    opacity: 0.3;
-}
-
-.placeholder {
-    background-image: url("./images/refactor.png"); 
-    
-    
-}
-
-.placeholder2 {
-    background-image: url("./images/better-land-page.png");
-    
-}
-
-.placeholder3 {
-    background-image: url("./images/password-gen.png")
-}
-
-.placeholder4 {
-    background-image: url("./images/work-day.png")
-}
-
-.placeholder5 {
-    background-image: url("./images/art-loop.png")
-}
-
-.placeholder6 {
-    background-image: url("./images/readme.png")
-}
-
-.placeholder7 {
-    background-image: url("./images/ecommerce.jpg")
-}
-
-
-
-
-
-footer{
-    color: var(--light-grey);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    font-size:  30px;
-}
-
-footer p{
-    color: var(--green);
-    font-size: 30px;
-}
+  @media only screen and (min-width: 601px) {
+    .container {
+      width: 85%;
+    }
+  }
+  @media only screen and (min-width: 993px) {
+    .container {
+      width: 70%;
+    }
+  }
 
 
 
