@@ -1,5 +1,4 @@
-![portfolio-preview](https://user-images.githubusercontent.com/81760763/127361459-62b7f9f3-0cd9-43fc-af55-093aca21d144.png)
-![portfolio-preview2](https://user-images.githubusercontent.com/81760763/127361467-0b6653e0-9730-45fa-92c8-8909e21f486b.png)
+
 DiFalco-Portfolio
 
 Hello, welcome to my portfolio page!
