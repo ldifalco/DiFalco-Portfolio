@@ -4,6 +4,25 @@
   
 }
 
+
+.about-me {
+ width:300px;
+  height:100px;  
+  display: table; 
+  background: maroon; 
+
+}
+
+.about-me img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    
+}
+
 body {
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       }
@@ -44,19 +63,6 @@ li {
 
 }
     
-.about-me {
-   
-}
-
-.about-me img {
-    width: 200px;
-    height: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    
-}
 
 .about-me img:hover{
     color:cyan;
