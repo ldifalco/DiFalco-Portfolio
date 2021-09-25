@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DiFalco Portfolio</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link rel="stylesheet" href="./assets/stylesheet.css">
+ 
+</head>
+
+<body>
+ 
+  <header>
+<!-- experimenting with new frameworks-->  
+<section class="fnvabar">
+  <nav class="nav-fixed">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Lucas DiFalco</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a class="btn-floating btn-large cyan pulse" href="main.html"><i class="material-icons">perm_identity</i></a></li>
+      <li><a class="btn-floating btn-large cyan pulse" href="#Creations"><i class="material-icons">create</i> </a></li>
+      <li><a class="btn-floating btn-large cyan pulse" href="#Contact-Me"><i class="material-icons">contact_mail</i></a></li>
+      </ul>
+    </div>
+   
+  </nav>
+  </section>  
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="main.html">About Me</a></li>
+      <li><a href="#Creations">Creations</a></li>
+      <li><a href="#Contact-Me">Contact Me</a></li>
+    </ul>
+
+ 
+  </header>
+
+  <main id="content">
+  
+    <!-- add more links to other work here -->
+    <div class="creations">
+      <h2 id="Creations">Creations</h2>
+      <div class="container">
+      <div class="column">
+        <div class="col s12 m7">
+          <div class="card x-large">
+            <div class="card-image">
+              <img src="./assets/images/art-loop.png">
+            </div>
+            <div class="card-content">
+              <p> Access artwork from multiple cultures and develop a portfolio of your favorites. </p>
+            </div>
+            <div class="card-action">
+              <a href="https://ldifalco.github.io/ArtLoop/">Art Loop</a>
+              <a href="https://github.com/ldifalco/ArtLoop">Github Repo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+        <div class="column">
+          <div class="col s12 m7">
+            <div class="card large">
+              <div class="card-image">
+                <img src="./assets/images/password-gen.png">
+              </div>
+              <div class="card-content">
+                <p>Randomly generates a password between 8-128 characters based on the characters of the user's choosing. </p>
+              </div>
+              <div class="card-action">
+                <a href="https://ldifalco.github.io/difalco-password-generator">Password Generator</a>
+                <a href="https://github.com/ldifalco/difalco-password-generator">Github Repo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="column">
+          <div class="col s12 m7">
+            <div class="card large">
+              <div class="card-image">
+                <img src="./assets/images/work-day.png">
+              </div>
+              <div class="card-content">
+                <p>Keep your day organized with this simple day planner, color coded to help track tasks that are in the past, present, or future. </p>
+              </div>
+              <div class="card-action">
+                <a href="https://ldifalco.github.io/js-day-planner/">Day Planner</a>
+                <a href="https://github.com/ldifalco/js-day-planner">Github Repo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+
+      
+
+     
+
+  </main>
+
+
+
+
+
+  <footer id="Contact-Me">
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text"><a class="grey-text text-lighten-3" href="https://docs.google.com/document/d/1o5dhzizS27sJ7A7AoNkUBIskATL2oH90JpS-wvBHkI8/export?format=pdf">Resume</a></h5>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">How to Reach Me</h5>
+            <ul>
+              <li>484.515.9406 luke.difalco52@gmail.com</li><br>
+              <li><a class="grey-text text-lighten-3" href="https://github.com/ldifalco">Github</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/lucas-difalco52/">LinkedIn</a</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2021 Lucas DiFalco
+        
+        </div>
+      </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+});
+</script>
+  
+</body>
+
+            
+</html>
