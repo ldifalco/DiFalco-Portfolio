@@ -8,8 +8,11 @@ body {
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       }
 
-.nav-wrapper{
+.nav-fixed{
     background-color: maroon;
+    position: fixed;
+    top: 0;
+    z-index: 100;
 }
 
 
@@ -79,6 +82,10 @@ p {
 
 .creations .container {
     flex: 0 0 75%;
+}
+
+.card-content {
+    color:darkgoldenrod
 }
 
 
