@@ -25,8 +25,10 @@ The greatest challenge of this assignment was definitely grasping flex-box and a
 
 Features: Working Navigation Links Links to applications shown in Portfolio Responsive Layout
 
-https://ldifalco.github.io/DiFalco-Portfolio/
+
 
 EDIT: Actively updating portfolio as more works are created! 
 
 © 2021 GitHub, Inc.
+![Screenshot from 2021-09-25 19-21-30](https://user-images.githubusercontent.com/81760763/134788404-fca21ee4-22fd-4a26-997d-3e4a19d8772c.png)
+![Screenshot from 2021-09-25 19-21-53](https://user-images.githubusercontent.com/81760763/134788408-3ec2f451-0dfd-48de-a0b6-1c49fb0efc5f.png)
