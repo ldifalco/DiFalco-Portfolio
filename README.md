@@ -1,6 +1,10 @@
 
 DiFalco-Portfolio
 
+#Description#
+
+
+
 Hello, welcome to my portfolio page!
 
 For this assignment, I created a portfolio page of my current work, that will also serve as the page I continue to add work to as the course continues. The basis of the site was built around using correct CSS selectors as well as flex-box and creating responsive layouts.
