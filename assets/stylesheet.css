@@ -109,18 +109,6 @@ p {
   }
 
 
-  @media only screen and (min-width: 601px) {
-    .container {
-      width: 85%;
-    }
-  }
-  @media only screen and (min-width: 993px) {
-    .container {
-      width: 70%;
-    }
-  }
-
-
 
 @media screen and (max-width: 550px){
     p {
@@ -138,18 +126,4 @@ p {
         height: 25%;
            
     }
-
-@media screen and (max-width: 550px){
-    .placeholder img {
-        width:50%;
-        height: 50%;
-               
-        }
-
-@media screen and (max-width: 550px){
-    .placeholder2 img {
-        width:50%;
-        height: 50%;
-                   
-            }
-
+}
